@@ -7,7 +7,7 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
     padding: 24px 24px 0;
 
@@ -147,4 +147,19 @@ hr{
     height: 1px;
     background: LightGrey;
     margin: 0 0 24px;
+}
+
+a{
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
+}
+
+a:hover,
+a:focus{
+    color: crimson;
+}
+
+a:visited,
+a:active{
+    color: blueViolet;
 }
